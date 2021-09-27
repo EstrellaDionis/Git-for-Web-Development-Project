@@ -62,13 +62,13 @@ https://codepen.io/DionisEstrella/pen/jOweoWq?editors=1100
     30. How do I write a comment in CSS?
     /*comment */
     31. How do I find out what file I am in, when I am using the command line? 
-
-    32. Using the command line - how do I see a list of files/folders in my current folder?
     pwd
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+    ls
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
-
+    we use rm newfile.txt <-- file name you want to remove. You want to be careful because you could accidentally delete a file you didn't mean to.
     34. Why should I use version control? 
-
+    because it tracks and manages changes to software code. It allows to changes to code over time. 
     35. How often should I commit to github?
     every time you do something important or finish a portion of a task.
     36. What is the command we would use to push our repo up to github? 
@@ -86,4 +86,15 @@ Stretch Questions
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
     display: inline-block; Inline-block allows block level tags be inline and allows them to be able to take widths, heights, padding etc. Great for using buttons in a row.
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    BLOCK LEVEL: H1, P, DIV, HEADER, FOOTER, section
+    DISPLAY INLINE: SPAN, A, B, BR, BUTTON, IMG, 
+    DISPLAY INLINE-BLOCK BY DEFAULT: IMG, BUTTON, TEXTAREA, INPUT AND SELECT
+
     5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+    the box model is content, padding, border and margin.
+    padding can make the content bigger or smaller
+    border makes the box containing the padding and content bigger
+    margin pushes and creates more space around everything that is around the border
+
+    You can make all elements respect the width given to them by make the parent container be a certain size and giving the children elements size in ex; %'s 
+    to make sure they follow the rules within their container.
